@@ -1,0 +1,252 @@
+body {
+  top: 0;
+  bottom: 0;
+  background: #fff;
+  margin: auto;
+}
+
+* {
+  font-family: Poppins;
+}
+
+:root {
+  --dark-color: #2d2d2d;
+  --secondary-color: #d9d9d9;
+  --large-font-size: 24px;
+  --large-font-weight: 600;
+  --mid-font-weight: 400;
+  --sm-font-size: 16px;
+  --mid-font-size: 18px;
+  --sm-font-weight: 300;
+  --xs-font-size: 14px;
+}
+
+.saved-design-page,
+.orders-page,
+.setting-page {
+  max-width: 1440px;
+  margin: auto;
+  overflow: hidden;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header h1,
+.content-header h1 {
+  margin: 0;
+  padding: 0;
+  color: var(--dark-color);
+  font-size: var(--large-font-size);
+  font-weight: var(--large-font-weight);
+  letter-spacing: -0.84px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f6ef;
+  padding: 0 32px;
+  height: 60px;
+  font-style: normal;
+}
+
+.header ul {
+  display: flex;
+  color: var(--dark-color);
+  font-weight: var(--mid-font-weight);
+  font-size: var(--sm-font-size);
+  line-height: normal;
+  gap: 22px;
+}
+
+.content-section {
+  display: flex;
+}
+
+.navigation {
+  margin-left: 34px;
+  padding-top: 37.87px;
+  border-right: 1px solid #d9d9d9;
+  width: 230px;
+  height: 90vh;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.navigation p {
+  color: var(--dark-color);
+  font-size: var(--sm-font-size);
+  font-weight: var(--mid-font-weight);
+  line-height: normal;
+  font-style: normal;
+  margin: 0;
+  width: 100%;
+}
+
+.navigation li {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.navigation li:first-child {
+  margin-bottom: 32.28px;
+}
+
+.navigation li:nth-child(2) {
+  margin-bottom: 36px;
+}
+
+.navigation li:nth-child(3) {
+  margin-bottom: 35.62px;
+}
+
+.navigation li:nth-child(4) {
+  margin-bottom: 36.42px;
+}
+
+.navigation li:nth-child(5) {
+  margin-bottom: 35.45px;
+}
+
+.navigation li:nth-child(6) {
+  margin-bottom: 35.95px;
+}
+
+.navigation li:nth-child(7) {
+  margin-bottom: 35.95px;
+}
+.content {
+  padding: 0 32px 0 40px;
+  flex-grow: 1;
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+button {
+  padding: 9px 18px;
+  border-radius: 5px;
+  /* border: none; */
+  background: #fff;
+  font-style: normal;
+  line-height: normal;
+  border: none;
+}
+
+.view-demos {
+  color: var(--dark-color);
+  font-size: var(--sm-font-size);
+  font-weight: var(--mid-font-weight);
+  margin-right: 8px;
+}
+
+.add-product {
+  color: #fff;
+  font-weight: var(--large-font-weight);
+  font-size: var(--sm-font-size);
+  background: linear-gradient(90deg, #ffc28c 0%, #ea60d5 49.48%, #7d8dff 100%);
+}
+
+.designs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 32px;
+  column-gap: 27px;
+  margin-top: 40px;
+}
+
+.card {
+  width: 350px;
+  height: 350px;
+  border-radius: 5px;
+  border: 1px solid #737373;
+}
+
+.card img {
+  display: block;
+  margin: 25px auto;
+}
+
+hr {
+  margin: 0;
+}
+
+.card h1 {
+  color: var(--dark-color);
+  font-size: var(--mid-font-size);
+  font-style: normal;
+  font-weight: var(--large-font-weight);
+  line-height: normal;
+  margin: 8px 0 0 20px;
+}
+
+.card p {
+  color: var(--dark-color);
+  font-size: var(--mid-font-size);
+  font-weight: var(--sm-font-weight);
+  margin: 0 0 9px 20px;
+  line-height: normal;
+  font-style: normal;
+}
+
+.filterby {
+  margin-top: 24px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.filterby > div {
+  display: flex;
+  gap: 35px;
+}
+
+.filterby h1,
+th {
+  color: var(--dark-color);
+  font-size: var(--sm-font-size);
+  font-style: normal;
+  font-weight: var(--large-font-weight);
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+input[type="date"] {
+  width: 165px;
+  padding: 4px 0 4px 10px;
+  color: rgba(217, 217, 217, 0.6);
+}
+
+.filterby input {
+  height: 32px;
+  border-radius: 5px;
+  border: 1px solid #9c9c9c;
+  font-size: var(--mid-font-size);
+  font-style: normal;
+  font-weight: var(--mid-font-weight);
+  line-height: normal;
+}
+
+input[type="text"] {
+  width: 346px;
+  color: #d9d9d9;
+  padding: 4px 0 4px 8px;
+}
+    
+
